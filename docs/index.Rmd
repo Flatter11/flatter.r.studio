@@ -1,0 +1,56 @@
+---
+title: "Index"
+output: 
+  html_document: 
+    highlight: monochrome
+    theme: united
+date: "2023-03-11"
+---
+
+# R notes sorted by lecture {.tabset}
+
+## Overview
+
+1.  Introduction to R
+2.  Regression in R (graph, random numbers, linear regression)
+3.  Applied regression I (generalized linear model, poisson regression)
+
+## 1
+
+[1. Introduction to R](https://flatter11.github.io/r.studio/2.-Regression-in-R)
+
+1.  Use of R as a calculator
+2.  Vectors, matrices, and their operations
+3.  Logic in R
+4.  Data frames
+5.  Summaries, tables
+
+## 2
+
+[2. Regression in R](https://flatter11.github.io/r.studio/2.-Regression-in-R)
+
+1.  Graphs
+2.  Generating random numbers following uniform, binomial, normal distribution
+3.  Linear regression       
+    Regression related codes:
+    -   `cut` categorizing continous variable
+    -   `confint` 95%CI
+    -   `AIC` `StepAIC`
+    -   `predict` fit new data to a model
+4.  Others
+    -   `shaprio` check normality for a set of data
+    -   IF and FOR statement
+
+## 3
+
+[3. Applied regression I]()
+
+1.  What is count data and poisson distribution
+2.  Generalized linear model
+    -   goodness-of-fit for model checking
+    -   `predict` for model checking
+3.  Overdispersion
+
+
+
+
