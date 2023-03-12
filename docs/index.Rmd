@@ -1,5 +1,5 @@
 ---
-title: "Index"
+title: "Content page"
 output: 
   html_document: 
     highlight: monochrome
@@ -7,15 +7,22 @@ output:
 date: "2023-03-11"
 ---
 
-# R notes sorted by lecture {.tabset}
+## R notes sorted by lecture {.tabset}
 
-## Overview
+### Overview
 
 1.  Introduction to R
-2.  Regression in R (graph, random numbers, linear regression)
-3.  Applied regression I (generalized linear model, poisson regression)
+2.  Regression in R 
+    -   Graph, random numbers, linear regression
+3.  Applied regression I
+    -   Generalized linear model, poisson regression
+4.  Applied regression II 
+    -   Overdispersion -- negative binomial distribution, checking influential observations, model diagnostics to check assumptions violated
+5.  Applied regression III
+    -   Multicollinearity, confounding, effect modification, mediation
+6.  Conditional logistic regression and propensity score method
 
-## 1
+### 1
 
 [1. Introduction to R](https://flatter11.github.io/r.studio/1.-Introduction-to-R)
 
@@ -25,13 +32,13 @@ date: "2023-03-11"
 4.  Data frames
 5.  Summaries, tables
 
-## 2
+### 2
 
 [2. Regression in R](https://flatter11.github.io/r.studio/2.-Regression-in-R)
 
 1.  Graphs
 2.  Generating random numbers following uniform, binomial, normal distribution
-3.  Linear regression       
+3.  **Linear regression**       
     Regression related codes:
     -   `cut` categorizing continous variable
     -   `confint` 95%CI
@@ -41,15 +48,58 @@ date: "2023-03-11"
     -   `shaprio` check normality for a set of data
     -   IF and FOR statement
 
-## 3
+### 3
 
-[3. Applied regression I](https://flatter11.github.io/r.studio/2.-Applied-regression-I)
+[3. Applied regression I](https://flatter11.github.io/r.studio/3.-Applied-regression-I)
 
-1.  What is count data and poisson distribution
+1.  What is count data and **poisson distribution**
 2.  Generalized linear model
     -   goodness-of-fit for model checking
     -   `predict` for model checking
 3.  Overdispersion
+
+### 4
+
+[4. Applied regression II](https://flatter11.github.io/r.studio/4.-Applied-regression-II)
+
+1.  Overdispersion and **negative binomial distribution**
+2.  Checking influential observations
+    -   Leverage
+    -   Cook’s distance
+3.  Model diagnostics to check for any assumptions violated
+    -   Linearity
+    -   Heteroscedasticity of the errors
+    -   Non-normality of the errors
+    -   Non-independence of the errors
+
+### 5
+
+[5. Applied regression III](https://flatter11.github.io/r.studio/5.-Applied-regression-III)
+
+1.  Multicollinearity
+    -   Diagnostic: Variance inflation factor (VIF) > 10 `vif`
+    -   Solution: Centering to solve multicollinearity `scale`
+2.  Confounding
+    -   Diagnostic
+        -   Automatic variable selection (AIC) `stepAIC`
+        -   Relative change in estimate greater than 10%
+        -   Standard rules
+3.  Effect modification
+    -   Solution: Add interaction term in regression model
+4.  Mediation
+    -   Diagnostic
+        -   Baron and Kenny criteria
+        -   Sobel test `sobel`
+
+### 6
+
+[6. Conditional logistic regression and propensity score method](https://flatter11.github.io/r.studio/5.-Applied-regression-III)
+
+1.  Conditional logistic regression -- conditional analysis for individual matching `clogit`
+2.  Propensity score (PS) 
+    -   Solution for confounding
+
+
 
 
 

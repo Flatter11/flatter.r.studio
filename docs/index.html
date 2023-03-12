@@ -12,7 +12,7 @@
 
 <meta name="date" content="2023-03-11" />
 
-<title>Index</title>
+<title>Content page</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -326,26 +326,42 @@ display: none;
 
 
 
-<h1 class="title toc-ignore">Index</h1>
+<h1 class="title toc-ignore">Content page</h1>
 <h4 class="date">2023-03-11</h4>
 
 </div>
 
 
-<div id="r-notes-sorted-by-lecture" class="section level1 tabset">
-<h1 class="tabset">R notes sorted by lecture</h1>
-<div id="overview" class="section level2">
-<h2>Overview</h2>
+<div id="r-notes-sorted-by-lecture" class="section level2 tabset">
+<h2 class="tabset">R notes sorted by lecture</h2>
+<div id="overview" class="section level3">
+<h3>Overview</h3>
 <ol style="list-style-type: decimal">
 <li>Introduction to R</li>
-<li>Regression in R (graph, random numbers, linear regression)</li>
-<li>Applied regression I (generalized linear model, poisson
-regression)</li>
+<li>Regression in R
+<ul>
+<li>Graph, random numbers, linear regression</li>
+</ul></li>
+<li>Applied regression I
+<ul>
+<li>Generalized linear model, poisson regression</li>
+</ul></li>
+<li>Applied regression II
+<ul>
+<li>Overdispersion – negative binomial distribution, checking
+influential observations, model diagnostics to check assumptions
+violated</li>
+</ul></li>
+<li>Applied regression III
+<ul>
+<li>Multicollinearity, confounding, effect modification, mediation</li>
+</ul></li>
+<li>Conditional logistic regression and propensity score method</li>
 </ol>
 </div>
-<div id="section" class="section level2">
-<h2>1</h2>
-<p><a href="https://flatter11.github.io/r.studio/2.-Regression-in-R">1.
+<div id="section" class="section level3">
+<h3>1</h3>
+<p><a href="https://flatter11.github.io/r.studio/1.-Introduction-to-R">1.
 Introduction to R</a></p>
 <ol style="list-style-type: decimal">
 <li>Use of R as a calculator</li>
@@ -355,15 +371,15 @@ Introduction to R</a></p>
 <li>Summaries, tables</li>
 </ol>
 </div>
-<div id="section-1" class="section level2">
-<h2>2</h2>
+<div id="section-1" class="section level3">
+<h3>2</h3>
 <p><a href="https://flatter11.github.io/r.studio/2.-Regression-in-R">2.
 Regression in R</a></p>
 <ol style="list-style-type: decimal">
 <li>Graphs</li>
 <li>Generating random numbers following uniform, binomial, normal
 distribution</li>
-<li>Linear regression<br />
+<li><strong>Linear regression</strong><br />
 Regression related codes:
 <ul>
 <li><code>cut</code> categorizing continous variable</li>
@@ -378,17 +394,87 @@ Regression related codes:
 </ul></li>
 </ol>
 </div>
-<div id="section-2" class="section level2">
-<h2>3</h2>
-<p><a href>3. Applied regression I</a></p>
+<div id="section-2" class="section level3">
+<h3>3</h3>
+<p><a href="https://flatter11.github.io/r.studio/3.-Applied-regression-I">3.
+Applied regression I</a></p>
 <ol style="list-style-type: decimal">
-<li>What is count data and poisson distribution</li>
+<li>What is count data and <strong>poisson distribution</strong></li>
 <li>Generalized linear model
 <ul>
 <li>goodness-of-fit for model checking</li>
 <li><code>predict</code> for model checking</li>
 </ul></li>
 <li>Overdispersion</li>
+</ol>
+</div>
+<div id="section-3" class="section level3">
+<h3>4</h3>
+<p><a href="https://flatter11.github.io/r.studio/4.-Applied-regression-II">4.
+Applied regression II</a></p>
+<ol style="list-style-type: decimal">
+<li>Overdispersion and <strong>negative binomial
+distribution</strong></li>
+<li>Checking influential observations
+<ul>
+<li>Leverage</li>
+<li>Cook’s distance</li>
+</ul></li>
+<li>Model diagnostics to check for any assumptions violated
+<ul>
+<li>Linearity</li>
+<li>Heteroscedasticity of the errors</li>
+<li>Non-normality of the errors</li>
+<li>Non-independence of the errors</li>
+</ul></li>
+</ol>
+</div>
+<div id="section-4" class="section level3">
+<h3>5</h3>
+<p><a href="https://flatter11.github.io/r.studio/5.-Applied-regression-III">5.
+Applied regression III</a></p>
+<ol style="list-style-type: decimal">
+<li>Multicollinearity
+<ul>
+<li>Diagnostic: Variance inflation factor (VIF) &gt; 10
+<code>vif</code></li>
+<li>Solution: Centering to solve multicollinearity
+<code>scale</code></li>
+</ul></li>
+<li>Confounding
+<ul>
+<li>Diagnostic
+<ul>
+<li>Automatic variable selection (AIC) <code>stepAIC</code></li>
+<li>Relative change in estimate greater than 10%</li>
+<li>Standard rules</li>
+</ul></li>
+</ul></li>
+<li>Effect modification
+<ul>
+<li>Solution: Add interaction term in regression model</li>
+</ul></li>
+<li>Mediation
+<ul>
+<li>Diagnostic
+<ul>
+<li>Baron and Kenny criteria</li>
+<li>Sobel test <code>sobel</code></li>
+</ul></li>
+</ul></li>
+</ol>
+</div>
+<div id="section-5" class="section level3">
+<h3>6</h3>
+<p><a href="https://flatter11.github.io/r.studio/5.-Applied-regression-III">6.
+Conditional logistic regression and propensity score method</a></p>
+<ol style="list-style-type: decimal">
+<li>Conditional logistic regression – conditional analysis for
+individual matching <code>clogit</code></li>
+<li>Propensity score (PS)
+<ul>
+<li>Solution for confounding</li>
+</ul></li>
 </ol>
 </div>
 </div>
