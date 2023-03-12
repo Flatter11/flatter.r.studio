@@ -17,7 +17,7 @@ date: "2023-03-11"
 
 ## 1
 
-[1. Introduction to R](https://flatter11.github.io/r.studio/2.-Regression-in-R)
+[1. Introduction to R](https://flatter11.github.io/r.studio/1.-Introduction-to-R)
 
 1.  Use of R as a calculator
 2.  Vectors, matrices, and their operations
@@ -43,7 +43,7 @@ date: "2023-03-11"
 
 ## 3
 
-[3. Applied regression I]()
+[3. Applied regression I](https://flatter11.github.io/r.studio/2.-Applied-regression-I)
 
 1.  What is count data and poisson distribution
 2.  Generalized linear model
