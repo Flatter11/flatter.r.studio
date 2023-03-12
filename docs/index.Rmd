@@ -21,6 +21,9 @@ date: "2023-03-11"
 5.  Applied regression III
     -   Multicollinearity, confounding, effect modification, mediation
 6.  Conditional logistic regression and propensity score method
+    -   
+7.  
+
 
 ### 1
 
@@ -93,7 +96,7 @@ date: "2023-03-11"
 
 ### 6
 
-[6. Conditional logistic regression and propensity score method](https://flatter11.github.io/r.studio/5.-Applied-regression-III)
+[6. Conditional logistic regression and propensity score method](https://flatter11.github.io/r.studio/6.-Conditional-logistic-regression-and-propensity-score-method)
 
 1.  Conditional logistic regression -- conditional analysis for individual matching `clogit`
 2.  Propensity score (PS) 
