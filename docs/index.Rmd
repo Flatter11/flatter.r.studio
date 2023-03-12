@@ -7,22 +7,30 @@ output:
 date: "2023-03-11"
 ---
 
-## R notes sorted by lecture {.tabset}
+## R notes sorted by lecture :D {.tabset}
 
 ### Overview
 
-1.  Introduction to R
-2.  Regression in R 
+1.  [Introduction to R](https://flatter11.github.io/r.studio/1.-Introduction-to-R)
+
+2.  [Regression in R](https://flatter11.github.io/r.studio/2.-Regression-in-R) 
     -   Graph, random numbers, linear regression
-3.  Applied regression I
+    
+3.  [Applied regression I](https://flatter11.github.io/r.studio/3.-Applied-regression-I)
     -   Generalized linear model, poisson regression
-4.  Applied regression II 
+    
+4.  [Applied regression II](https://flatter11.github.io/r.studio/4.-Applied-regression-II)
     -   Overdispersion -- negative binomial distribution, checking influential observations, model diagnostics to check assumptions violated
-5.  Applied regression III
+    
+5.  [Applied regression III](https://flatter11.github.io/r.studio/5.-Applied-regression-III)
     -   Multicollinearity, confounding, effect modification, mediation
-6.  Conditional logistic regression and propensity score method
-    -   
-7.  
+    
+6.  [Conditional logistic regression and propensity score method](https://flatter11.github.io/r.studio/6.-Conditional-logistic-regression-and-propensity-score-method)
+    -   clogit for matched case-control study, propensity score for confounding
+    
+7.  [Inverse probability weighting and meta analysisd](https://flatter11.github.io/r.studio/7.-Inverse-probability-weighting-and-meta-analysis)
+    -   IPW for missing data, meta analysis (fixed/random effect model, forest, 
+        funnel plot)
 
 
 ### 1
@@ -99,11 +107,20 @@ date: "2023-03-11"
 [6. Conditional logistic regression and propensity score method](https://flatter11.github.io/r.studio/6.-Conditional-logistic-regression-and-propensity-score-method)
 
 1.  Conditional logistic regression -- conditional analysis for individual matching `clogit`
-2.  Propensity score (PS) 
-    -   Solution for confounding
+2.  Propensity score (PS) for confounding
+    -   How to derive PS
+    -   PS analysis
+        1.  Stratification
+        2.  Matching
+        3.  Adjustment
 
+### 7
 
+[7. Inverse probability weighting and meta analysisd](https://flatter11.github.io/r.studio/7.-Inverse-probability-weighting-and-meta-analysis)
 
-
-
+1.  **Inverse probability weighting** for missing data
+2.  **Meta analysis**
+    -   Heterogeneity (fixed and random effect model)
+    -   Forest plot
+    -   Funnel plot
 
