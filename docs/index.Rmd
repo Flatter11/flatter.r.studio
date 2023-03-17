@@ -31,7 +31,8 @@ date: "2023-03-11"
 7.  [Inverse probability weighting and meta analysisd](https://flatter11.github.io/r.studio/7.-Inverse-probability-weighting-and-meta-analysis)
     -   IPW for missing data, meta analysis (fixed/random effect model, forest, 
         funnel plot)
-
+8.  [Instrumental variable analysis](https://flatter11.github.io/r.studio/8.-Instrumental-variable-analysis)
+    -   Wald estimate, 2SLS
 
 ### 1
 
@@ -124,3 +125,11 @@ date: "2023-03-11"
     -   Forest plot
     -   Funnel plot
 
+### 8
+
+[8. Instrumental variable analysis](https://flatter11.github.io/r.studio/8.-Instrumental-variable-analysis)
+
+1.  **Wald estimate**
+2.  **2SLS**
+3.  Test for weak relevance (1st assumption violation)
+4.  IV vs regression
