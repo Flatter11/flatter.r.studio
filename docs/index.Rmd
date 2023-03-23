@@ -31,10 +31,12 @@ date: "2023-03-11"
 7.  [Inverse probability weighting and meta analysisd](https://flatter11.github.io/r.studio/7.-Inverse-probability-weighting-and-meta-analysis)
     -   IPW for missing data, meta analysis (fixed/random effect model, forest, 
         funnel plot)
+        
 8.  [Instrumental variable analysis](https://flatter11.github.io/r.studio/8.-Instrumental-variable-analysis)
     -   Wald estimate, 2SLS
 
-Tutorials
+*Tutorials*
+
 1.  [Regression in R](https://flatter11.github.io/r.studio/Tutorial-1)
     -   Use `runif` `sample` to prove central limit theorem; fit linear regression
         model
@@ -44,6 +46,10 @@ Tutorials
     -   Exploratory analysis (cross tabulation, boxplot), confounder, effect 
         modification with **subgroup analysis**, collinearity, mediation analysis,
         **model selection** with `stepAIC`, summarize results
+        
+3.  [Meta analysis](https://flatter11.github.io/r.studio/Tutorial-3)        
+    [Meta analysis](https://flatter11.github.io/r.studio/Tutorial-3_keypoints)
+    -   
 
 ### 1
 
@@ -171,3 +177,12 @@ Tutorials
     mediation analysis
 3.  **Model selection** with `stepAIC`
 4.  Summarize results
+
+### T3
+
+[Meta analysis](https://flatter11.github.io/r.studio/Tutorial-3)
+[Meta analysis](https://flatter11.github.io/r.studio/Tutorial-3_keypoints)
+
+1.  
+
+
