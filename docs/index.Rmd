@@ -34,6 +34,17 @@ date: "2023-03-11"
 8.  [Instrumental variable analysis](https://flatter11.github.io/r.studio/8.-Instrumental-variable-analysis)
     -   Wald estimate, 2SLS
 
+Tutorials
+1.  [Regression in R](https://flatter11.github.io/r.studio/Tutorial-1)
+    -   Use `runif` `sample` to prove central limit theorem; fit linear regression
+        model
+        
+2.  [Applied regression](https://flatter11.github.io/r.studio/Tutorial-2)       
+    [Key point](https://flatter11.github.io/r.studio/Tutorial-2_keypoints)
+    -   Exploratory analysis (cross tabulation, boxplot), confounder, effect 
+        modification with **subgroup analysis**, collinearity, mediation analysis,
+        **model selection** with `stepAIC`, summarize results
+
 ### 1
 
 [1. Introduction to R](https://flatter11.github.io/r.studio/1.-Introduction-to-R)
@@ -133,3 +144,30 @@ date: "2023-03-11"
 2.  **2SLS**
 3.  Test for weak relevance (1st assumption violation)
 4.  IV vs regression
+
+### T1
+
+[Regression in R](https://flatter11.github.io/r.studio/Tutorial-1)
+
+1.  Use `runif` for uniform distribution; `sample` for bimodal discrete 
+    distribution to prove central limit theorem     
+    `shapiro.test` to check noramlity
+2.  Fit linear gression model
+    -   `cut` to categorize groups
+    -   `aggregate` to calculate summary statistics
+    -   `boxplot`; `plot` to draw scatterplot + `abline(lm(model))` to add 
+        regression line **[[very complicated question]]**
+    -   Quadratic relationship
+    -   `stepAIC` for model selection
+    -   `predict` to predict result with model
+
+### T2
+
+[Applied regression](https://flatter11.github.io/r.studio/Tutorial-2)
+[Applied regression](https://flatter11.github.io/r.studio/Tutorial-2_keypoints)
+
+1.  Exploratory analysis (cross tabulation, boxplot)
+2.  Confounder, effect modification with **subgroup analysis**, collinearity, 
+    mediation analysis
+3.  **Model selection** with `stepAIC`
+4.  Summarize results
