@@ -48,7 +48,7 @@ date: "2023-03-11"
         **model selection** with `stepAIC`, summarize results
         
 3.  [Meta analysis](https://flatter11.github.io/r.studio/Tutorial-3)        
-    [Meta analysis](https://flatter11.github.io/r.studio/Tutorial-3_keypoints)
+    [Key point](https://flatter11.github.io/r.studio/Tutorial-3_keypoints)
     -   
 
 ### 1
@@ -169,8 +169,8 @@ date: "2023-03-11"
 
 ### T2
 
-[Applied regression](https://flatter11.github.io/r.studio/Tutorial-2)
-[Applied regression](https://flatter11.github.io/r.studio/Tutorial-2_keypoints)
+[Applied regression](https://flatter11.github.io/r.studio/Tutorial-2); 
+[Key point](https://flatter11.github.io/r.studio/Tutorial-2_keypoints)
 
 1.  Exploratory analysis (cross tabulation, boxplot)
 2.  Confounder, effect modification with **subgroup analysis**, collinearity, 
@@ -180,8 +180,8 @@ date: "2023-03-11"
 
 ### T3
 
-[Meta analysis](https://flatter11.github.io/r.studio/Tutorial-3)
-[Meta analysis](https://flatter11.github.io/r.studio/Tutorial-3_keypoints)
+[Meta analysis](https://flatter11.github.io/r.studio/Tutorial-3); 
+[Key point](https://flatter11.github.io/r.studio/Tutorial-3_keypoints)
 
 1.  
 
