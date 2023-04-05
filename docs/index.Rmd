@@ -41,15 +41,14 @@ date: "2023-03-11"
     -   Use `runif` `sample` to prove central limit theorem; fit linear regression
         model
         
-2.  [Applied regression](https://flatter11.github.io/r.studio/Tutorial-2)       
-    [Key point](https://flatter11.github.io/r.studio/Tutorial-2_keypoints)
+2.  [Applied regression](https://flatter11.github.io/r.studio/Tutorial-2) ; [Key point](https://flatter11.github.io/r.studio/Tutorial-2_keypoints)
     -   Exploratory analysis (cross tabulation, boxplot), confounder, effect 
         modification with **subgroup analysis**, collinearity, mediation analysis,
         **model selection** with `stepAIC`, summarize results
         
 3.  [Meta analysis](https://flatter11.github.io/r.studio/Tutorial-3)        
-    [Key point](https://flatter11.github.io/r.studio/Tutorial-3_keypoints)
-    -   
+    -   Fixed effect & random effect model, forest & funnel plot, meta regression, 
+        sensitivity analysis
 
 ### 1
 
@@ -181,8 +180,10 @@ date: "2023-03-11"
 ### T3
 
 [Meta analysis](https://flatter11.github.io/r.studio/Tutorial-3); 
-[Key point](https://flatter11.github.io/r.studio/Tutorial-3_keypoints)
 
-1.  
+1.  Fixed effect & random effect model
+2.  Forest & funnel plot
+3.  Meta regression
+4.  Sensitivity analysis (exclude studies, leave-one-out, trim and fill)
 
 
